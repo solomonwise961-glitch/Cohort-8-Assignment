@@ -1,0 +1,37 @@
+body {
+
+  font-family: 'Verdana', sans-serif;
+
+  max-width: 450px;
+
+  margin: 50px auto;
+
+  text-align: center;
+
+}
+
+
+
+button {
+
+  margin-top: 15px;
+
+  padding: 8px 16px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+
+
+.prefs {
+
+  text-align: left;
+
+  margin: 15px 0;
+
+}
+
+
