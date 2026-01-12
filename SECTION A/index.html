@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Password Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Secure Password Creator</h1>
+
+  <div>
+    <label for="pwLength">Password Length:</label>
+    <input type="number" id="pwLength" min="8" max="32" value="16">
+  </div>
+
+  <div class="prefs">
+    <label><input type="checkbox" id="incUpper" checked> Uppercase Letters</label>
+    <label><input type="checkbox" id="incDigits" checked> Numbers</label>
+    <label><input type="checkbox" id="incSpecial"> Symbols</label>
+  </div>
+
+  <button id="generateBtn">Generate</button>
+
+  <p id="pwOutput"> Generated password appears here</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
